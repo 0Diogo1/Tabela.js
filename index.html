@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Tabela com JavaScript</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="viewport" content="Width=device-width, initial-scale=1.0">
+        <meta name="author" content="Diogo Batista dos Santos">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <h1>Construção de tabela com HTML, CSS e Javascript</h1>
+        <h2>Tabela de notas de alunos</h2>
+
+        <table>
+            <thead>
+                <th>Nome</th>
+                <th>N1</th>
+                <th>N2</th>
+                <th>N3</th>
+                <th>N4</th>
+                <th>Média</th>
+            </thead>
+            <tbody>
+                <tr class="Linha">
+                    <td>Luciano</td>
+                    <td>9.5</td>
+                    <td>7.4</td>
+                    <td>8</td>
+                    <td>8.6</td>
+                    <td class="aluno-m"></td>
+                </tr>
+                <tr class="Linha">
+                    <td>Fernando</td>
+                    <td>6</td>
+                    <td>7.5</td>
+                    <td>7</td>
+                    <td>8.2</td>
+                    <td class="aluno-m"></td>
+                </tr>
+                <tr class="Linha">
+                    <td>Jorge</td>
+                    <td>9</td>
+                    <td>9.5</td>
+                    <td>6.5</td>
+                    <td>6.7</td>
+                    <td class="aluno-m"></td>
+                </tr>
+                <tr class="Linha">
+                    <td>Claudia</td>
+                    <td>7.4</td>
+                    <td>7.7</td>
+                    <td>8.4</td>
+                    <td>6.2</td>
+                    <td class="aluno-m"></td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="mostrarmedia()">Mostrar Média</button>
+
+        <script src="media.js"></script>
+    </body>
+</html>
+
